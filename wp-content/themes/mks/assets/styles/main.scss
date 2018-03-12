@@ -1,0 +1,255 @@
+@import "common/variables";
+
+// Automatically injected Bower dependencies via wiredep (never manually edit this block)
+// bower:scss
+@import "../../bower_components/bootstrap/scss/bootstrap.scss";
+// endbower
+
+@import "common/global";
+@import "components/buttons";
+@import "components/comments";
+@import "components/forms";
+@import "components/grid";
+@import "components/wp-classes";
+@import "layouts/header";
+@import "layouts/sidebar";
+@import "layouts/footer";
+@import "layouts/pages";
+@import "layouts/posts";
+@import "layouts/tinymce";
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,600');
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.banner {
+  position: relative;
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .container {
+    margin: 0;
+    padding: 0;
+  }
+
+}
+.postNews a:active {
+  text-decoration: none;
+  color: white;
+}
+
+
+.postNews a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.postNews a:hover {
+  text-decoration: none;
+  color: rgb(139, 211, 241);
+}
+
+.mainDLsection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(236, 236, 237);
+
+}
+
+.mainDLsection p{
+  margin-top: 20px;
+  color: grey;
+
+}
+
+.file {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(236, 236, 237);
+}
+
+
+.fileTitle {
+  color: grey;
+  text-align: center;
+  font-size: 12px;
+}
+
+.newsTitle {
+  text-align: center;
+  color: grey;
+  margin-top: 20px;
+}
+
+.thumbnail {
+  border: 12px solid rgb(236, 236, 237);
+  //box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobileThumbnail {
+  display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  .thumbnail {
+    display: none;
+
+  }
+
+  .mobileThumbnail {
+    //border: 12px solid rgb(236, 236, 237);
+    //box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+
+.postTitle {
+  color: rgb(47, 198, 243);
+  font-size: 30px;
+
+}
+
+.postText {
+  color: gray;
+}
+
+@media only screen and (max-width: 1000px) {
+  .postTitle {
+    padding-left: 10px;
+  }
+
+  p {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+
+}
+
+.readMore {
+  background-color: rgb(46, 197, 243);
+  padding: 5px 15px;
+  font-size: 12px;
+  color: white;
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  transition: 0.5s all;
+  border: 1px solid rgb(46, 197, 243)
+}
+
+.readMore:hover {
+  background-color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+  .readMore {
+    margin-left: 10px;
+  }
+}
+
+.form{
+  height: 70px;
+  background-color: rgb(46, 197, 243);
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.form1 {
+  height: 40px;
+  background-color: rgb(46, 197, 243);
+  display: flex;
+  padding-left: 235px;
+}
+
+
+.logos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+input[type=text] {
+  color: grey;
+  font-weight: lighter;
+}
+
+input[type=email] {
+  color: grey;
+  font-weight: lighter;
+}
+
+input[type=submit] {
+  background-color: transparent;
+  border: 2px solid white;
+  color: rgb(139, 211, 241);
+  font-size: 14px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: lighter;
+  transition: 0.5s all;
+}
+
+input[type=submit]:hover {
+  background-color: white;
+
+}
+
+label {
+  color: white;
+  font-size: 13px;
+  margin-left: 5px;
+}
+
+.form p {
+  color: white;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-weight: lighter;
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .form {
+      justify-content: center;
+      padding: 10px;
+    }
+    .form img {
+      margin-left: 10px;
+    }
+    .form1 {
+      justify-content: center;
+      padding: 0;
+    }
+}
