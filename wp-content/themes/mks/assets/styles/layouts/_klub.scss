@@ -1,0 +1,34 @@
+.aboutClub p {
+  margin-top: 20px;
+}
+
+.imgClub{
+  border: 12px solid rgb(236, 236, 237);
+  display: inline-block;
+}
+
+.imgClubMobile {
+  display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .imgClubMobile {
+    border: 12px solid rgb(236, 236, 237);
+    display: inline-block;
+  }
+
+  .imgClub {
+    display: none;
+  }
+
+}
+
+.titleClub {
+  color: rgb(47, 198, 243);
+}
+
+.postClub {
+  margin-top: 50px;
+}
+

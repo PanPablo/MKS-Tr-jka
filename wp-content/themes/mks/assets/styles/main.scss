@@ -17,6 +17,7 @@
 @import "layouts/pages";
 @import "layouts/posts";
 @import "layouts/tinymce";
+@import "layouts/klub";
 
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,600');
 
@@ -96,8 +97,7 @@ body {
 
 .thumbnail {
   border: 12px solid rgb(236, 236, 237);
-  //box-sizing: border-box;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
 }
@@ -113,9 +113,8 @@ body {
   }
 
   .mobileThumbnail {
-    //border: 12px solid rgb(236, 236, 237);
-    //box-sizing: border-box;
-    display: flex;
+    border: 12px solid rgb(236, 236, 237);
+    display: inline-flex;
     align-items: center;
     justify-content: center;
   }
