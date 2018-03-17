@@ -19,9 +19,9 @@
               </div>
           </div>
           <div class="row">
-             <div class="col-sm">
+             <div class="col-1">
 <!--                <a class="brand" href="--><?//= esc_url(home_url('/')); ?><!--">--><?php //bloginfo('name'); ?><!--</a>-->
-                 <div class="logo"></div>
+                 <a href="http://localhost:3000/mks/index.php"><div class="logo"></div></a>
             </div>
           </div>
           <div class="row">
