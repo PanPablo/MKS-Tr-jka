@@ -52,6 +52,5 @@ if( function_exists('acf_add_options_page') ) {
     require 'post-types/Contact.php';
     require 'post-types/social.php';
     require 'post-types/Klub.php';
-
-
+    require 'post-types/dokumenty.php';
 }
