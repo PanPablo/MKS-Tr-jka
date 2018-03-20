@@ -1,0 +1,22 @@
+.becomeSponsor {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+}
+.becomeSponsor p{
+  display: inline;
+  margin: 0;
+
+}
+
+.becomeSponsor button {
+  display: inline;
+  background-color: rgb(46, 197, 243);
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 12px;
+}

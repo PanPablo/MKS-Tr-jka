@@ -89,6 +89,7 @@ function display_sidebar() {
       is_page('o-klubie'),
       is_page('aktualnosci'),
       is_page('dokumenty'),
+      is_page('sponsorzy'),
   ]);
 
   return apply_filters('sage/display_sidebar', $display);
