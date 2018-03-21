@@ -8,8 +8,10 @@
 ?>
 <div class="container">
     <div class="row">
-        <div class="col becomeSponsor">
+        <div class="col-sm becomeSponsor">
             <p>SPONSORZY/PARTNERZY</p>
+        </div>
+        <div class="col-sm becomeSponsor">
             <button>JAK ZOSTAĆ SPONSOREM/PARTNEREM KLUBU?</button>
         </div>
     </div>
@@ -24,11 +26,13 @@
     if ( $q->have_posts() ) : while ( $q->have_posts() ) : $q->the_post(); ?>
         <!-- post -->
        <div class="row">
-           <div class="col">
+           <div class="col-4 sponsorsImg">
                 <img src="<?php the_field('logo_sponsora')?>">
-                <?php the_title(); ?>
-                <a href="<?php the_field('link')?>"><?php the_field('link')?></a>
+           </div>
+            <div class="col-8 sponsorsDsc">
+                <h4><?php the_title(); ?></h4>
                 <p><?php the_content()?></p>
+                <a href="<?php the_field('link')?>"><?php the_field('link')?></a>
            </div>
        </div>
     <?php endwhile; ?>

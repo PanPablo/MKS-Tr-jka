@@ -19,7 +19,7 @@ $q = new WP_Query([
 if ( $q->have_posts() ) : while ( $q->have_posts() ) : $q->the_post(); ?>
     <!-- post -->
     <div class="row postClub">
-        <div class="col-sm">
+        <div class="col-sm clubImage">
             <div class="imgClub"><?php the_post_thumbnail('medium_large') ?></div>
             <div class="imgClubMobile"><?php the_post_thumbnail('medium') ?></div>
         </div>
@@ -47,7 +47,7 @@ if ( $q->have_posts() ) : while ( $q->have_posts() ) : $q->the_post(); ?>
     if ( $q->have_posts() ) : while ( $q->have_posts() ) : $q->the_post(); ?>
         <!-- post -->
         <div class="row playersClub">
-            <div class="col-sm">
+            <div class="col-sm clubImage">
                 <div class="imgClub"><?php the_post_thumbnail('medium_large') ?></div>
                 <div class="imgClubMobile"><?php the_post_thumbnail('medium') ?></div>
             </div>

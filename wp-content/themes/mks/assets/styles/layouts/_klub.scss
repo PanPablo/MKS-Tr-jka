@@ -5,23 +5,36 @@
 .imgClub{
   border: 12px solid rgb(236, 236, 237);
   display: inline-block;
+
 }
 
 .imgClubMobile {
   display: none;
 }
 
+
+
 @media only screen and (max-width: 1000px) {
 
   .imgClubMobile {
     border: 12px solid rgb(236, 236, 237);
     display: inline-block;
-  }
 
+  }
+ .clubImage {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 15px;
+ }
   .imgClub {
     display: none;
   }
+  .postClub {
+    padding-left: 20px;
+    padding-right: 20px;
 
+  }
 }
 
 .titleClub {
@@ -42,6 +55,17 @@
   background-color: rgb(236, 238, 237);
 }
 
+@media only screen and (max-width: 768px) {
+  .playersClub {
+    padding-left: 20px;
+    padding-right: 20px;
+
+  }
+
+}
+
+
 .playersClub .imgClub {
   border: 12px solid white;
 }
+

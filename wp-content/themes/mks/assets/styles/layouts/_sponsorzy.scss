@@ -3,12 +3,13 @@
   align-items: center;
   justify-content: space-around;
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 
 }
 .becomeSponsor p{
   display: inline;
   margin: 0;
+  color: grey
 
 }
 
@@ -19,4 +20,45 @@
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 12px;
+
+}
+
+.sponsorsImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(236, 236, 237);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.sponsorsImg img {
+  padding: 50px;
+  background-color: white;
+
+}
+
+@media only screen and (max-width: 768px) {
+ .sponsorsImg img {
+   padding: 5px;
+ }
+}
+
+.sponsorsDsc {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(236, 236, 237);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.sponsorsDsc h4 {
+  color: rgb(46, 197, 243);
+}
+
+.sponsorsDsc p {
+  font-size: 14px;
+  color: grey
 }
