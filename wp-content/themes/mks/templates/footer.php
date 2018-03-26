@@ -1,6 +1,6 @@
 <footer class="content-info">
   <div class="container">
-      <div class="row">
+      <div class="row ">
 
           <?php
 

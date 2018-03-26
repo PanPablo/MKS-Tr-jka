@@ -90,6 +90,7 @@ function display_sidebar() {
       is_page('aktualnosci'),
       is_page('dokumenty'),
       is_page('sponsorzy'),
+      is_page('dla-mediow')
   ]);
 
   return apply_filters('sage/display_sidebar', $display);

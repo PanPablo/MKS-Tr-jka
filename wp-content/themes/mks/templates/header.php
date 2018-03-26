@@ -1,6 +1,6 @@
 <header class="banner">
-  <div class="container">
       <div class="mainBackground">
+          <div class="container">
           <div class="row">
               <div class="col-sm">
                   <nav class="nav-primary">
@@ -19,7 +19,7 @@
               </div>
           </div>
           <div class="row">
-             <div class="col-1">
+             <div class="col-sm">
 <!--                <a class="brand" href="--><?//= esc_url(home_url('/')); ?><!--">--><?php //bloginfo('name'); ?><!--</a>-->
                  <a href="http://localhost:3000/mks/index.php"><div class="logo"></div></a>
             </div>
@@ -66,6 +66,7 @@
               ?>
           </nav>
       </div>
+      </div>
       <div class="row">
           <div class="col-sm name">
               <p>MIĘDZYSZKOLNY KLUB SPORTOWY TRÓJKA</p>
@@ -80,5 +81,5 @@
               <div class="timer"></div>
           </div>
       </div>
-  </div>
+
 </header>
