@@ -7,6 +7,7 @@
  */
 ?>
 <div class="container">
+
     <?php
 
     $q = new WP_Query([
