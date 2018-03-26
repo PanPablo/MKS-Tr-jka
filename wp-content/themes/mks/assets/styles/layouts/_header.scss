@@ -222,7 +222,8 @@
 
 @media only screen and (max-width: 1000px) {
   .socialHeader {
-    top: 500px;
+    position: absolute;
+     top: 400px;
   }
 }
 
@@ -240,6 +241,12 @@
   position: absolute;
   top: 450px;
   right: 550px;
+}
+
+@media only screen and (max-width: 768px) {
+ .arrow {
+  display: none;
+  }
 }
 
 .name {
