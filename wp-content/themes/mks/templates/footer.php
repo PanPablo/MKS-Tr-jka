@@ -1,4 +1,5 @@
 <footer class="content-info">
+    <a name="section_contact"></a>
   <div class="container">
       <div class="row ">
 

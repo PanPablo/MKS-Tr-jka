@@ -71,6 +71,7 @@
             </div>
         <?php endwhile; ?>
             <!-- post navigation -->
+
         <?php else: ?>
             <!-- no posts found -->
         <?php endif;
