@@ -69,7 +69,7 @@
       </div>
       <div class="row">
           <div class="col-sm name">
-              <p><?php is_front_page() ? bloginfo('description') : wp_title("",true); ?></p>
+              <p><?php is_front_page() ? bloginfo('description') : wp_title("",true);  ?></p>
           </div>
       </div>
       <div class="row">
