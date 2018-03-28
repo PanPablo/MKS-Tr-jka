@@ -24,8 +24,12 @@
   margin-top: 20px;
 }
 
+.socialFooter img {
+  transition: 0.4s all;
+}
+
 .socialFooter img:hover {
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 .mobileSocialFooter {
