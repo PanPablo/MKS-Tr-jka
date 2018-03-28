@@ -21,6 +21,7 @@
 @import "layouts/dokumenty";
 @import "layouts/sponsorzy";
 @import "layouts/aktualnosci";
+@import "layouts/gadzety";
 
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,600');
 
@@ -34,6 +35,10 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+}
+
+li.current-menu-item {
+  text-decoration: underline;
 }
 
 .banner {

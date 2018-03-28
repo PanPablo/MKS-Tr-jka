@@ -91,6 +91,7 @@ function display_sidebar() {
       is_page('dokumenty'),
       is_page('sponsorzy'),
       is_page('dla-mediow'),
+      is_page('gadzety'),
 
   ]);
 

@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.9.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-02-21 11:54:40+0000\n"
+"PO-Revision-Date: 2018-03-27 13:43:19+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -555,7 +555,7 @@ msgstr "Zobacz wpisy utworzone przez %s"
 msgid "%s Active Installations"
 msgstr "%s aktywnych instalacji"
 
-#: wp-admin/includes/class-wp-users-list-table.php:492
+#: wp-admin/includes/class-wp-users-list-table.php:496
 msgctxt "name"
 msgid "Unknown"
 msgstr "Nieznany"
@@ -1782,7 +1782,7 @@ msgid "We&#8217;re going to use this information to create a %s file."
 msgstr "Wykorzystamy te informacje do stworzenia pliku %s."
 
 #. translators: %s: wp-content/uploads
-#: wp-admin/options-media.php:112
+#: wp-admin/options-media.php:114
 msgid "Default is %s"
 msgstr "Domyślnie jest to %s"
 
@@ -2079,7 +2079,7 @@ msgstr "Sposób wyświetlania"
 msgid "View all drafts"
 msgstr "Wyświetlanie wszystkich szkiców"
 
-#: wp-admin/includes/class-wp-users-list-table.php:566
+#: wp-admin/includes/class-wp-users-list-table.php:570
 msgctxt "no user roles"
 msgid "None"
 msgstr "Brak"
@@ -2416,7 +2416,7 @@ msgstr[2] "Twój motyw posiada %s miejsc na menu. Wybierz, w którym miejscu wy�
 msgid "Live Preview &#8220;%s&#8221;"
 msgstr "Podgląd na żywo &#8220;%s&#8221;"
 
-#: wp-admin/includes/class-wp-users-list-table.php:505
+#: wp-admin/includes/class-wp-users-list-table.php:509
 msgid "%s post by this author"
 msgid_plural "%s posts by this author"
 msgstr[0] "%s wpis tego autora"
@@ -2926,7 +2926,7 @@ msgstr "Rozmiar w megabajtach"
 
 #. translators: Do not translate USERNAME, ADMIN_URL, EMAIL, SITENAME, SITEURL:
 #. those are placeholders.
-#: wp-admin/includes/misc.php:1161
+#: wp-admin/includes/misc.php:1163
 msgid ""
 "Howdy ###USERNAME###,\n"
 "\n"
@@ -4584,13 +4584,13 @@ msgstr "W celu zarządzania odnośnikami należy zainstalować wtyczkę <a href=
 msgid "Manage <a href=\"%1$s\">widgets</a> or <a href=\"%2$s\">menus</a>"
 msgstr "Zarządzaj <a href=\"%1$s\">widgetami</a> lub <a href=\"%2$s\">menu</a>"
 
-#: wp-admin/edit-form-advanced.php:367
-msgid "The title field and the big Post Editing Area are fixed in place, but you can reposition all the other boxes using drag and drop. You can also minimize or expand them by clicking the title bar of each box. Use the Screen Options tab to unhide more boxes (Excerpt, Send Trackbacks, Custom Fields, Discussion, Slug, Author) or to choose a 1- or 2-column layout for this screen."
-msgstr "Choć nie można zmienić pozycji pola tytułu oraz pola edycji wpisu, to można w dowolny sposób wybrać położenie pozostałych modułów. Ich pozycje można zmienić w bardzo prosty sposób, po prostu wystarczy złapać za nagłówek i przeciągnąć w nowe miejsce. Można wybrać moduły, które będą wyświetlane. Należy użyć zakładki Opcje ekranu, żeby wyświetlić panel zarządzania modułami lub wybrać układ pomiędzy dwukolumnowym, a jednokolumnowym,"
-
 #: wp-admin/widgets.php:71
 msgid "When changing themes, there is often some variation in the number and setup of widget areas/sidebars and sometimes these conflicts make the transition a bit less smooth. If you changed themes and seem to be missing widgets, scroll down on this screen to the Inactive Widgets area, where all of your widgets and their settings will have been saved."
 msgstr "Po włączeniu nowego motywu, często zmienia się liczba i rozmieszczenie bocznych paneli, co czasem utrudnia płynne przełączanie. Jeżeli został zmieniony motyw i brakuje widgetów, należy przewinąć stronę w dół. Nieużywane aktualnie widgety znajdują się w module Nieużywane widgety."
+
+#: wp-admin/edit-form-advanced.php:367
+msgid "The title field and the big Post Editing Area are fixed in place, but you can reposition all the other boxes using drag and drop. You can also minimize or expand them by clicking the title bar of each box. Use the Screen Options tab to unhide more boxes (Excerpt, Send Trackbacks, Custom Fields, Discussion, Slug, Author) or to choose a 1- or 2-column layout for this screen."
+msgstr "Choć nie można zmienić pozycji pola tytułu oraz pola edycji wpisu, to można w dowolny sposób wybrać położenie pozostałych modułów. Ich pozycje można zmienić w bardzo prosty sposób, po prostu wystarczy złapać za nagłówek i przeciągnąć w nowe miejsce. Można wybrać moduły, które będą wyświetlane. Należy użyć zakładki Opcje ekranu, żeby wyświetlić panel zarządzania modułami lub wybrać układ pomiędzy dwukolumnowym, a jednokolumnowym,"
 
 #: wp-admin/edit-form-advanced.php:441
 msgid "Several boxes on this screen contain settings for how your content will be published, including:"
@@ -5351,7 +5351,7 @@ msgstr "Główna witryna"
 msgid "MB (Leave blank for network default)"
 msgstr "MB (pozostaw puste, aby użyć domyślnej wartości sieci witryn)"
 
-#: wp-admin/includes/misc.php:1208
+#: wp-admin/includes/misc.php:1210
 msgid "[%s] New Admin Email Address"
 msgstr "[%s] Nowy adres email administratora"
 
@@ -5817,13 +5817,13 @@ msgstr "Komentarzami zarządza się w podobny sposób jak wpisami i innymi treś
 msgid "Many people take advantage of keyboard shortcuts to moderate their comments more quickly. Use the link to the side to learn more."
 msgstr "Wielu ludzi używa skrótów klawiaturowych, aby moderować komentarze szybciej. Kliknij odnośnik, który znajduje się po prawej stronie, aby dowiedzieć się więcej."
 
-#: wp-admin/edit-form-advanced.php:396 wp-admin/edit.php:237
-msgid "Pages are similar to posts in that they have a title, body text, and associated metadata, but they are different in that they are not part of the chronological blog stream, kind of like permanent posts. Pages are not categorized or tagged, but can have a hierarchy. You can nest pages under other pages by making one the &#8220;Parent&#8221; of the other, creating a group of pages."
-msgstr "Strony są pod paroma względami podobne do wpisów, ponieważ i one mają tytuł, treść i pewne metadane, jednak różnią się one od nich tym, że nie pojawiają się tam, gdzie pojawiają się wpisy, tylko mają swoje stałe miejsca. Strony nie mogą być kategoryzowane ani tagowane, ale mogą zostać uporządkowane w hierarchię – mogą być podstronami innych stron."
-
 #: wp-admin/edit.php:243
 msgid "Managing pages is very similar to managing posts, and the screens can be customized in the same way."
 msgstr "Zarządzanie stronami jest bardzo podobne do zarządzania wpisami, a ich ekrany mogą zostać dostosowane do potrzeb w taki sam sposób."
+
+#: wp-admin/edit-form-advanced.php:396 wp-admin/edit.php:237
+msgid "Pages are similar to posts in that they have a title, body text, and associated metadata, but they are different in that they are not part of the chronological blog stream, kind of like permanent posts. Pages are not categorized or tagged, but can have a hierarchy. You can nest pages under other pages by making one the &#8220;Parent&#8221; of the other, creating a group of pages."
+msgstr "Strony są pod paroma względami podobne do wpisów, ponieważ i one mają tytuł, treść i pewne metadane, jednak różnią się one od nich tym, że nie pojawiają się tam, gdzie pojawiają się wpisy, tylko mają swoje stałe miejsca. Strony nie mogą być kategoryzowane ani tagowane, ale mogą zostać uporządkowane w hierarchię – mogą być podstronami innych stron."
 
 #: wp-admin/edit.php:244
 msgid "You can also perform the same types of actions, including narrowing the list by using the filters, acting on a page using the action links that appear when you hover over a row, or using the Bulk Actions menu to edit the metadata for multiple pages at once."
@@ -6759,6 +6759,10 @@ msgstr "%1$s &#8212; WordPress"
 msgid "This screen allows you to edit five fields for metadata in a file within the media library."
 msgstr "Na tym ekranie możesz zmodyfikować pięć różnych metadanych o każdym pliku."
 
+#: wp-admin/edit-form-advanced.php:417 wp-admin/media.php:76
+msgid "For images only, you can click on Edit Image under the thumbnail to expand out an inline image editor with icons for cropping, rotating, or flipping the image as well as for undoing and redoing. The boxes on the right give you more options for scaling the image, for cropping it, and for cropping the thumbnail in a different way than you crop the original image. You can click on Help in those boxes to get more information."
+msgstr "Pod obrazkami dostępny jest odnośnik &#8222;Edytuj obrazek&#8211;, którego kliknięcie powoduje rozwinięcie edytora wraz z przyciskami pozwalającymi na przycinanie, obracanie oraz odbijanie obrazka oraz na cofanie i ponowne wprowadzanie popełnionych zmian. W modułach po prawej dostępne jest więcej możliwości skalowania i przycinania obrazka oraz możliwość przycinania miniatury niezależnie od obrazka. Więcej informacji znajduje się pod odnośnikami &#8222;Pomoc&#8221; znajdującymi się w tych modułach."
+
 #: wp-admin/edit-form-advanced.php:418 wp-admin/media.php:77
 msgid "Note that you crop the image by clicking on it (the Crop icon is already selected) and dragging the cropping frame to select the desired part. Then click Save to retain the cropping."
 msgstr "Obrazki przycina się poprzez kliknięcie na nich (przycisk włączający tryb przycinania jest już wciśnięty) i przeciągnięcie ramki wyznaczającej wycinany obszar, aby wybrać pożądany fragment, a następnie kliknięcie &#8222;Zapisz&#8221;, aby zachować zmiany."
@@ -6766,10 +6770,6 @@ msgstr "Obrazki przycina się poprzez kliknięcie na nich (przycisk włączając
 #: wp-admin/edit-form-advanced.php:419 wp-admin/media.php:78
 msgid "Remember to click Update Media to save metadata entered or changed."
 msgstr "Pamiętaj, aby kliknąć przycisk &#8222;Zaktualizuj media&#8221;, aby zapisać wprowadzone lub zmienione metadane."
-
-#: wp-admin/edit-form-advanced.php:417 wp-admin/media.php:76
-msgid "For images only, you can click on Edit Image under the thumbnail to expand out an inline image editor with icons for cropping, rotating, or flipping the image as well as for undoing and redoing. The boxes on the right give you more options for scaling the image, for cropping it, and for cropping the thumbnail in a different way than you crop the original image. You can click on Help in those boxes to get more information."
-msgstr "Pod obrazkami dostępny jest odnośnik &#8222;Edytuj obrazek&#8211;, którego kliknięcie powoduje rozwinięcie edytora wraz z przyciskami pozwalającymi na przycinanie, obracanie oraz odbijanie obrazka oraz na cofanie i ponowne wprowadzanie popełnionych zmian. W modułach po prawej dostępne jest więcej możliwości skalowania i przycinania obrazka oraz możliwość przycinania miniatury niezależnie od obrazka. Więcej informacji znajduje się pod odnośnikami &#8222;Pomoc&#8221; znajdującymi się w tych modułach."
 
 #: wp-admin/widgets.php:56
 msgid "The Available Widgets section contains all the widgets you can choose from. Once you drag a widget into a sidebar, it will open to allow you to configure its settings. When you are happy with the widget settings, click the Save button and the widget will go live on your site. If you click Delete, it will remove the widget."
@@ -7928,12 +7928,6 @@ msgstr "Jeżeli posiadasz motyw w formacie .zip, możesz zainstalować go poprze
 msgid "Details"
 msgstr "Szczegóły"
 
-#. translators: %s: Theme version
-#: wp-admin/includes/theme.php:654 wp-admin/theme-install.php:337
-#: wp-admin/themes.php:461
-msgid "Version: %s"
-msgstr "Wersja %s"
-
 #: wp-admin/includes/class-wp-upgrader.php:154 wp-admin/includes/theme.php:67
 msgid "Unable to locate WordPress theme directory."
 msgstr "Nie udało się zlokalizować katalogu motywów WordPressa."
@@ -8259,47 +8253,47 @@ msgstr "Ustawienia mediów"
 msgid "Image sizes"
 msgstr "Rozmiary obrazków"
 
-#: wp-admin/options-media.php:53
+#: wp-admin/options-media.php:53 wp-admin/options-media.php:54
 msgid "Thumbnail size"
 msgstr "Rozmiar miniatury"
 
-#: wp-admin/options-media.php:60
+#: wp-admin/options-media.php:62
 msgid "Crop thumbnail to exact dimensions (normally thumbnails are proportional)"
 msgstr "Przytnij miniaturę do podanych wymiarów (domyślnie miniatury są proporcjonalne)"
 
-#: wp-admin/options-media.php:65 wp-admin/options-media.php:66
+#: wp-admin/options-media.php:67 wp-admin/options-media.php:68
 msgid "Medium size"
 msgstr "Średni rozmiar"
 
-#: wp-admin/options-media.php:67 wp-admin/options-media.php:78
+#: wp-admin/options-media.php:69 wp-admin/options-media.php:80
 msgid "Max Width"
 msgstr "Maksymalna szerokość"
 
-#: wp-admin/options-media.php:70 wp-admin/options-media.php:81
+#: wp-admin/options-media.php:72 wp-admin/options-media.php:83
 msgid "Max Height"
 msgstr "Maksymalna wysokość"
 
-#: wp-admin/options-media.php:76 wp-admin/options-media.php:77
+#: wp-admin/options-media.php:78 wp-admin/options-media.php:79
 msgid "Large size"
 msgstr "Duży rozmiar"
 
-#: wp-admin/options-media.php:101
+#: wp-admin/options-media.php:103
 msgid "Uploading Files"
 msgstr "Wysyłanie plików na serwer"
 
-#: wp-admin/options-media.php:108
+#: wp-admin/options-media.php:110
 msgid "Store uploads in this folder"
 msgstr "Przechowuj wysłane pliki w katalogu"
 
-#: wp-admin/options-media.php:118
+#: wp-admin/options-media.php:120
 msgid "Full URL path to files"
 msgstr "Pełny adres URL katalogu z plikami"
 
-#: wp-admin/options-media.php:120
+#: wp-admin/options-media.php:122
 msgid "Configuring this is optional. By default, it should be blank."
 msgstr "Zmiana tego ustawienia jest opcjonalna. Domyślnie to pole jest puste."
 
-#: wp-admin/options-media.php:131
+#: wp-admin/options-media.php:133
 msgid "Organize my uploads into month- and year-based folders"
 msgstr "Porządkuj wysyłane pliki w katalogi z numerami miesięcy i lat w nazwach"
 
@@ -8865,7 +8859,7 @@ msgstr "Konto/konta użytkowników już istnieją."
 msgid "Please provide the following information. Don&#8217;t worry, you can always change these settings later."
 msgstr "Proszę wprowadzić poniższe informacje. Nie martw się, w razie czego zawsze można zmienić je później."
 
-#: wp-admin/options-media.php:94
+#: wp-admin/options-media.php:96
 msgid "Embeds"
 msgstr "Osadzone treści"
 
@@ -9102,6 +9096,12 @@ msgstr "Jeżeli tymczasowo zostaną nadane prawa do zapisu do głównego katalog
 #: wp-admin/options-discussion.php:160
 msgid "When a comment contains any of these words in its content, name, URL, email, or IP address, it will be held in the <a href=\"edit-comments.php?comment_status=moderated\">moderation queue</a>. One word or IP address per line. It will match inside words, so &#8220;press&#8221; will match &#8220;WordPress&#8221;."
 msgstr "Jeżeli komentarz będzie zawierał którekolwiek z tych słów w swojej treści, nazwie użytkownika, jego adresie URL czy email lub adresie IP, zostanie on przeniesiony do <a href=\"edit-comments.php?comment_status=moderated\">kolejki do moderacji</a>. Jedno słowo lub adres IP na linię. Sprawdzane są również fragmenty słów, tak więc słowo &#8222;WordPress&#8221; spełnia warunki kryterium &#8220;press&#8221;."
+
+#. translators: %s: Theme version
+#: wp-admin/includes/theme.php:654 wp-admin/theme-install.php:337
+#: wp-admin/themes.php:461
+msgid "Version: %s"
+msgstr "Wersja: %s"
 
 #: wp-admin/edit.php:220 wp-admin/includes/class-wp-list-table.php:436
 msgid "Bulk Actions"
@@ -10110,10 +10110,6 @@ msgstr "Zainstalowano najnowszą wersję"
 msgid "Last Updated:"
 msgstr "Ostatnia aktualizacja:"
 
-#: wp-admin/includes/plugin-install.php:585
-msgid "Requires WordPress Version:"
-msgstr "Wymaga WordPressa w wersji"
-
 #. translators: %s: WordPress version
 #: wp-admin/includes/plugin-install.php:588
 msgid "%s or higher"
@@ -10927,6 +10923,10 @@ msgstr "Przepraszamy, nie posiadasz uprawnień do edytowania wpisów jako ten u�
 #: wp-admin/includes/class-wp-upgrader.php:148
 msgid "Invalid data provided."
 msgstr "Podano nieprawidłowe dane."
+
+#: wp-admin/includes/plugin-install.php:585
+msgid "Requires WordPress Version:"
+msgstr "Wymaga WordPressa w wersji:"
 
 #: wp-admin/includes/media.php:2456 wp-admin/includes/nav-menu.php:361
 #: wp-admin/includes/nav-menu.php:649

@@ -60,8 +60,6 @@
     </div>
 <form method="">
     <div class="row">
-
-        <!--    <div class="col-sm form"> --><?php //advanced_form("form_5a8ca9b864ae4")?><!--</div>-->
         <div class="col-sm form"> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/newsletter.png"><p>ZAPISZ SIE DO NEWSLETTERA MKS TRÓJKA ŁÓDZ</p></div>
         <div class="col-sm form"><input type="text" value="Imię"></div>
         <div class="col-sm form"><input type="text" value="Nazwisko"></div>

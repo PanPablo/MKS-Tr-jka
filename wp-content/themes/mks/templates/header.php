@@ -53,7 +53,7 @@
 
                       ?>
                   </div>
-                  <div class="arrow"></div>
+                  <div class="arrow bounce"><i class="fa fa-angle-down fa-5x" aria-hidden="true"></i></div>
               </div>
           </div>
       </div>
@@ -76,10 +76,13 @@
     <?php if (is_page('gadzety')): ?>
 
         <div class='col-sm motto'>
-            <div class='puchar'></div>
-            <p>Twója stara</p>
-            <div class='timer'></div>
-        </div>;
+            <div class='infoIcon'></div>
+            <p>Klub MKS Trójka przygotował specjalne gadżety,<br>
+                które można zamówić poprzez stronę. Zysk ze <br>
+                sprzedaży Klub przeznaczy na działalność statutową <br>
+                (m.in. sprzęt dla zawodników, zawody, etc.)</p>
+            <div class='infoIcon'></div>
+        </div>
 
     <?php else: ?>
 

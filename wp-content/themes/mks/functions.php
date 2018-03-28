@@ -55,6 +55,7 @@ if( function_exists('acf_add_options_page') ) {
     require 'post-types/dokumenty.php';
     require 'post-types/sponsorzy-partnerzy.php';
     require 'post-types/media.php';
+    require 'post-types/gadzety.php';
 
 }
 
