@@ -3,9 +3,28 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
+  height: 620px;
   width: 100%;
-  //background-attachment: fixed;
+  background-attachment: fixed;
+}
+
+.onPageBackground {
+  background-image: url("../../assets/images/mainBg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  width: 100%;
+  background-attachment: fixed;
+}
+
+@media only screen and (max-width: 1000px) {
+  .mainBackground {
+    background-attachment: scroll;
+  }
+  .onPageBackground {
+    background-attachment: scroll;
+  }
 
 }
 
@@ -48,6 +67,7 @@
 .nav-icon3 {
   display: none;
 }
+
 @media only screen and (max-width: 1000px) {
   .nav-primary {
     display: none;
@@ -60,7 +80,7 @@
     position: absolute;
       top: 15px;
       right: 25px;
-    z-index: 99;
+    z-index: 100;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -o-transform: rotate(0deg);
@@ -131,8 +151,8 @@
 }
 
 .nav-mobile a {
-  color: white;
-  font-weight: 600;
+  color: rgb(47, 198, 243);
+  font-weight: bold;
 }
 
 .nav-mobile li {
@@ -141,26 +161,28 @@
 
 }
 
-
 .menuMobile {
   display:none
 }
 
 @media only screen and (max-width: 1000px) {
   .menuMobile {
-    height: 600px;
-    width: 320px;
+    height: 100vh;
+    width: 350px;
     //background-color: red;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: flex-start;
     position: absolute;
+    padding-top: 75px;
       top: 0;
       right: 0;
-    margin-right: -320px;
+    margin-right: -350px;
     overflow: hidden;
     transition: 0.5s all;
+    z-index: 99;
+    background-color: rgba(236, 236, 237, 0.7);
+
   }
 
   .menuMobileShow {
@@ -171,7 +193,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-end;
-    padding: 20px;
+    padding: 10px;
     padding-left: 0;
   }
 
@@ -219,6 +241,12 @@
 .socialHeader {
   position: absolute;
   top: 420px;
+  right: 40px;
+}
+
+.socialHeaderOnPage {
+  position: absolute;
+  top: 180px;
   right: 40px;
 }
 

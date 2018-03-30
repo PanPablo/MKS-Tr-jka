@@ -20,15 +20,24 @@
         // JavaScript to be fired on all pages
           $('.nav-icon3').click(function(){
               $(this).toggleClass('open');
-              $('.menuMobile').toggleClass('menuMobileShow')
+              $('.menuMobile').toggleClass('menuMobileShow');
+              $('.banner').toggleClass('bannerSlide');
           });
 
           $(window).scroll(function(){
-              $(".arrow").css("opacity", 1 - $(window).scrollTop() / 250);
+              $(".arrow").css("opacity", 1 - $(window).scrollTop() / 500);
               //250 is fade pixels
           });
 
+          function scrollToAnchor(aid){
+              var aTag = $("a[name='"+ aid +"']");
+              $('html,body').animate({scrollTop: aTag.offset().top},'slow');
+          }
 
+          $("#sta").click(function() {
+              scrollToAnchor('arrowScroll');
+
+          });
 
       },
       finalize: function() {

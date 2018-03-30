@@ -42,8 +42,19 @@ li.current-menu-item {
 
 }
 
+@media only screen and (max-width: 1000px) {
+  li.current-menu-item {
+    border-bottom: 2px solid rgb(47, 198, 243);
+  }
+}
 .banner {
   position: relative;
+  transition: 0.5s all;
+}
+
+.bannerSlide{
+  margin-left: -350px;
+  transition: 0.5s all;
 }
 
 .postNews a:active {

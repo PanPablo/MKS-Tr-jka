@@ -50,16 +50,15 @@
     <div class="row">
         <?php
 
-        $q = new WP_Query([
+        $v = new WP_Query([
             'post_type' => 'post',
             'category_name' => 'news',
             'posts_per_page' => 6,
-            'orderby' => 'date',
             'order' => 'DSC',
             'offset' => 3,
         ]);
 
-        if ( $q->have_posts() ) : while ( $q->have_posts() ) : $q->the_post(); ?>
+        if ( $v->have_posts() ) : while ( $v->have_posts() ) : $v->the_post(); ?>
             <!-- post -->
             <div class="col-lg-4 postNews newsPage">
                 <div class="thumbnail"><?php the_post_thumbnail('medium') ?></div>
