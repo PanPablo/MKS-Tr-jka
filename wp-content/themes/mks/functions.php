@@ -58,3 +58,17 @@ if( function_exists('acf_add_options_page') ) {
     require 'post-types/gadzety.php';
 
 }
+
+function fb_remove_menu_entries () {
+    // with WP 3.1 and higher
+    if ( function_exists( 'remove_menu_page' ) ) {
+        remove_menu_page( 'tools.php' );
+//        remove_submenu_page( 'options-general.php', 'options-discussion.php' );
+    } else {
+        // unset comments
+        unset( $GLOBALS['menu'][25] );
+        // unset menuentry Discussion
+        unset( $GLOBALS['submenu']['tools.php'][25] );
+    }
+}
+add_action( 'admin_menu', 'fb_remove_menu_entries' );

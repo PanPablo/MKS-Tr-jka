@@ -18,17 +18,18 @@
     'common': {
       init: function() {
         // JavaScript to be fired on all pages
+          // mobile menu animation
           $('.nav-icon3').click(function(){
               $(this).toggleClass('open');
               $('.menuMobile').toggleClass('menuMobileShow');
               $('.banner').toggleClass('bannerSlide');
           });
-
+            //arrow scroll animation
           $(window).scroll(function(){
               $(".arrow").css("opacity", 1 - $(window).scrollTop() / 500);
               //250 is fade pixels
           });
-
+            //scroll animation
           function scrollToAnchor(aid){
               var aTag = $("a[name='"+ aid +"']");
               $('html,body').animate({scrollTop: aTag.offset().top},'slow');
